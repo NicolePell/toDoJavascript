@@ -20,3 +20,11 @@ DataMapper.auto_upgrade!
 before do
   content_type 'application/json'
 end
+
+get '/' do
+  content_type 'html'
+
+  @tasks = Task.all
+  
+  erb :index
+end
