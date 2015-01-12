@@ -1,0 +1,32 @@
+section {
+  width: 800px;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tr.complete, tr.complete:nth-child(odd) {
+  background: #efffd7;
+  color: #ddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #dedede;
+}
+
+td {
+  padding: 10px 20px;
+}
+
+td.destroytask {
+  background: #ffeaea;
+  color: #943c3c;
+  font-weight: bold;
+  opacity: 0.4;
+}

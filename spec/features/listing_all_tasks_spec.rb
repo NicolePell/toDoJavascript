@@ -7,7 +7,7 @@ feature 'User can see all tasks listed' do
   }
 
   scenario 'when visiting the homepage' do
-    visit '/'
+    visit '/tasks'
     expect(page).to have_content('create a to do app')
   end
 end
